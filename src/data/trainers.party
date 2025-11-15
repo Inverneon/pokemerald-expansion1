@@ -4794,24 +4794,32 @@ Class: Leader
 Pic: Leader Roxanne
 Gender: Female
 Music: Female
-Items: Potion / Potion
-Double Battle: No
+Double Battle: Yes
 AI: Basic Trainer
 
-Geodude
+Lileep
+Ability: Storm Drain
 Level: 12
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Tackle
-- Defense Curl
-- Rock Throw
+- Absorb
 - Rock Tomb
+- Acid Spray
 
 Geodude
 Level: 12
+Abiltiy: Sturdy
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Tackle
 - Defense Curl
-- Rock Throw
+- Rock Tomb
+- Mud Slap
+
+Anorith @ Oran Berry
+Level: 13
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Scratch
+- Harden
+- Cut
 - Rock Tomb
 
 Nosepass @ Oran Berry
@@ -4819,7 +4827,7 @@ Level: 15
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 - Block
 - Harden
-- Tackle
+- Shock Wave
 - Rock Tomb
 
 === TRAINER_BRAWLY_1 ===
@@ -4829,31 +4837,40 @@ Pic: Leader Brawly
 Gender: Male
 Music: Male
 Items: Super Potion / Super Potion
-Double Battle: No
+Double Battle: Yes
 AI: Basic Trainer
 
 Machop
 Level: 16
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Karate Chop
-- Low Kick
-- Seismic Toss
+- Focus Energy
+- Rock Tomb
 - Bulk Up
 
 Meditite
 Level: 16
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Focus Punch
+- Rock Smash
 - Light Screen
 - Reflect
-- Bulk Up
+- Shadow Punch
+
+Marill
+Ability: Huge Power
+Level: 17
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Rock Smash
+- Covet
+- Splash
+- Sing
 
 Makuhita @ Sitrus Berry
 Level: 19
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 - Arm Thrust
-- Vital Throw
-- Reversal
+- SmellingSalt
+- Fake Out
 - Bulk Up
 
 === TRAINER_WATTSON_1 ===
@@ -4862,11 +4879,10 @@ Class: Leader
 Pic: Leader Wattson
 Gender: Male
 Music: Male
-Items: Super Potion / Super Potion
-Double Battle: No
+Double Battle: Yes
 AI: Basic Trainer
 
-Voltorb
+Volbeat
 Level: 20
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 - Rollout
@@ -4874,7 +4890,7 @@ IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 - Self Destruct
 - Shock Wave
 
-Electrike
+
 Level: 20
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 - Shock Wave
